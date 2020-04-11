@@ -1,0 +1,214 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "ede950a2-6920-4b09-a5a4-4f303155cd02": {
+        "id": "ede950a2-6920-4b09-a5a4-4f303155cd02",
+        "parent": null,
+        "name": "handler.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "handler.js",
+        "cursor": {
+          "lineNumber": 16,
+          "column": 1
+        },
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "hello",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "handler"
+        },
+        "triggers": [
+          {
+            "resourceName": "apigusEast1hellohelloget",
+            "config": {}
+          }
+        ],
+        "testCases": {
+          "c5d1283d-87ed-496f-8721-cdcf33b2dd29": {
+            "id": "c5d1283d-87ed-496f-8721-cdcf33b2dd29",
+            "name": "Test event",
+            "functionId": "ede950a2-6920-4b09-a5a4-4f303155cd02",
+            "event": "{\n    \"key1\": \"value1\",\n    \"key2\": \"value2\",\n    \"key3\": \"value3\"\n}",
+            "eventTemplate": "hello-world"
+          }
+        }
+      },
+      "fea93a6a-0d19-4a9c-bb73-87aa39da38a8": {
+        "id": "fea93a6a-0d19-4a9c-bb73-87aa39da38a8",
+        "parent": null,
+        "name": "tests",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "e901cd56-afdf-4421-9524-f84609400086"
+        ],
+        "isRemovable": true,
+        "filePath": "tests"
+      },
+      "4473c274-1fb5-4233-b8bf-2d12c3748f19": {
+        "id": "4473c274-1fb5-4233-b8bf-2d12c3748f19",
+        "parent": null,
+        "name": "serverless.yml",
+        "type": "YAML_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "serverless.yml"
+      },
+      "60438e8d-d486-47ee-86c7-a3874133a998": {
+        "id": "60438e8d-d486-47ee-86c7-a3874133a998",
+        "parent": null,
+        "name": "LICENSE",
+        "type": "TEXT_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "LICENSE"
+      },
+      "681e2c31-fdda-466c-a6da-39f669d4faf8": {
+        "id": "681e2c31-fdda-466c-a6da-39f669d4faf8",
+        "parent": null,
+        "name": "README.md",
+        "type": "MARKDOWN_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "README.md"
+      },
+      "dbdcd476-134d-49f8-b415-5462d34abb5a": {
+        "id": "dbdcd476-134d-49f8-b415-5462d34abb5a",
+        "parent": null,
+        "name": ".gitignore",
+        "type": "TEXT_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": ".gitignore"
+      },
+      "c226e1be-fe62-41cc-91f3-911d9345f5ff": {
+        "id": "c226e1be-fe62-41cc-91f3-911d9345f5ff",
+        "parent": null,
+        "name": "env.example",
+        "type": "TEXT_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "env.example"
+      },
+      "d1137e8a-72dd-4f5f-84b9-4a9ec384648f": {
+        "id": "d1137e8a-72dd-4f5f-84b9-4a9ec384648f",
+        "parent": null,
+        "name": "package.json",
+        "type": "JSON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "package.json"
+      },
+      "2cf96c8a-e88f-4812-9e0f-d0acb4e0ad66": {
+        "id": "2cf96c8a-e88f-4812-9e0f-d0acb4e0ad66",
+        "parent": null,
+        "name": "package-lock.json",
+        "type": "JSON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "package-lock.json"
+      },
+      "e901cd56-afdf-4421-9524-f84609400086": {
+        "id": "e901cd56-afdf-4421-9524-f84609400086",
+        "parent": "fea93a6a-0d19-4a9c-bb73-87aa39da38a8",
+        "name": "handler.test.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "tests/handler.test.js"
+      }
+    },
+    "openFiles": [
+      "ede950a2-6920-4b09-a5a4-4f303155cd02",
+      "4473c274-1fb5-4233-b8bf-2d12c3748f19"
+    ],
+    "currentFileId": "ede950a2-6920-4b09-a5a4-4f303155cd02",
+    "resources": {
+      "apigusEast1hellohelloget": {
+        "type": "API_GATEWAY",
+        "name": "apigusEast1hellohelloget",
+        "config": {
+          "selectedRegion": "us-east-1",
+          "apiName": "hello",
+          "apiMode": 0,
+          "endpointType": "EDGE",
+          "mode": 0,
+          "resourceName": "hello",
+          "resourcePath": "/hello",
+          "resourceMode": 0,
+          "restMethod": "GET",
+          "proxyIntegration": true,
+          "enableCORS": false,
+          "stageMode": 0,
+          "stageName": "dev"
+        }
+      }
+    },
+    "customTemplate": {
+      "dialect": "CloudFormation",
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {
+        "serverless-bundle": {
+          "name": "serverless-bundle",
+          "language": "nodejs",
+          "version": "^1.2.5",
+          "dev": true
+        },
+        "serverless-dotenv-plugin": {
+          "name": "serverless-dotenv-plugin",
+          "language": "nodejs",
+          "version": "^2.1.1",
+          "dev": true
+        },
+        "serverless-offline": {
+          "name": "serverless-offline",
+          "language": "nodejs",
+          "version": "^5.3.3",
+          "dev": true
+        }
+      }
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "serverless-nodejs-starter",
+    "projectDescription": "A Node.js starter for the Serverless Framework with async/await and unit test support",
+    "projectVersion": "1.1.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1586585573896
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "serverless-nodejs-starter",
+      "url": "https://github.com/nzpopa/serverless-nodejs-starter"
+    }
+  }
+}
